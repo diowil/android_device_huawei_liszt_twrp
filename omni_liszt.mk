@@ -27,10 +27,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 PRODUCT_COPY_FILES += \
-    device/huawei/p8/kernel:kernel
+    device/huawei/liszt/kernel:kernel
 
-PRODUCT_NAME := omni_p8
-PRODUCT_DEVICE := GRA-L09
+PRODUCT_NAME := omni_liszt
+PRODUCT_DEVICE := M2-A01W
 PRODUCT_BRAND := Huawei
-PRODUCT_MODEL := P8
+PRODUCT_MODEL := M2
 PRODUCT_MANUFACTURER := Huawei
