@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES += \
     device/huawei/liszt/kernel:kernel
 
 PRODUCT_NAME := omni_liszt
-PRODUCT_DEVICE := M2-A01W
+PRODUCT_DEVICE := liszt
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := HUAWEI M2-A01W 
 PRODUCT_MANUFACTURER := Huawei
